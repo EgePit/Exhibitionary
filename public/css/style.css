@@ -1,0 +1,48 @@
+.sidebar-nav {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav>.sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.imageupload .file-tab .thumbnail {
+    display: block;
+}
+
+#imgPreview, .imgPreview {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+ul.sidebar-nav li.current {
+    background-color: #007bff;
+}
+
+ul.sidebar-nav li.current a {
+    color: #FFF;
+}
+
+.thumbnail {
+    height: 100px;
+}
